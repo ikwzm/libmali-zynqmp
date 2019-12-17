@@ -22,9 +22,16 @@ shell$ git clone --recursive --depth=1 -b v1.6-1 git://github.com/ikwzm/libmali-
 shell$ cd libmali-zynqmp
 ```
 
-### Download User space libraries
+### Build
 
-#### Download with wget
+```console
+shell$ sudo debian/rules binary
+```
+
+Download User space libraries(r8p0-01rel0)
+------------------------------------------------------------------------------------
+
+### Download with wget
 
 ```console
 shell$ wget https://www.xilinx.com/publications/products/tools/mali-400-userspace.tar 
