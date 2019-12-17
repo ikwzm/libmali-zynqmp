@@ -18,8 +18,8 @@ Build Debian Package
 ### Download this repository
 
 ```console
-shell$ git clone --recursive --depth=1 -b v0.1.0 git://github.com/ikwzm/ZynqMP-FPGA-LibMali
-shell$ cd ZynqMP-FPGA-LibMali
+shell$ git clone --recursive --depth=1 -b v1.6-1 git://github.com/ikwzm/libmali-zynqmp.git
+shell$ cd libmali-zynqmp
 ```
 
 ### Download User space libraries
@@ -41,11 +41,9 @@ mali-400-userspace.tar     100%[=======================================>] 546.35
 
 ```
 
-### Extract mali/rel-v2019.1/r8p0-01rel0.tar
+### Extract mali/rel-v2019.1/r8p0-01rel0.tar to r8p0-01rel0
 
 ```console
 shell$ tar xf mali-400-userspace.tar mali/rel-v2019.1/r8p0-01rel0.tar
 shell$ tar xf mali/rel-v2019.1/r8p0-01rel0.tar
 ```
-
-apt install cmake cross-config
