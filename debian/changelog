@@ -1,0 +1,7 @@
+libmali-zynqmp (1.6-1) unstable; urgency=low
+
+  * mali: utgard: update to r8p0
+  * debian: update utgard to r8p0
+
+ -- ikwzm <ichiro_k@ca2.so-net.ne.jp>  Mon, 16 Dec 2019 16:40:18 +0900
+
