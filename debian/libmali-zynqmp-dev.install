@@ -1,3 +1,7 @@
 #! /usr/bin/dh-exec
-usr/include/*
-usr/lib/${DEB_HOST_MULTIARCH}/pkgconfig/*
+usr/include/EGL
+usr/include/GLES
+usr/include/GLES2
+usr/lib/${DEB_HOST_MULTIARCH}/pkgconfig/mali.pc
+usr/lib/${DEB_HOST_MULTIARCH}/pkgconfig/egl.pc
+usr/lib/${DEB_HOST_MULTIARCH}/pkgconfig/glesv2.pc
