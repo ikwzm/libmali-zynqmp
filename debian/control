@@ -7,22 +7,35 @@ Standards-Version: 3.9.5
 Section: libs
 
 Package: libmali-zynqmp-dev
-Section: libdevel
-Architecture: any
-Depends: ${misc:Depends}
+Architecture: arm64
+Depends: ${misc:Depends}, libmali-zynqmp
 Multi-Arch: same
-Provides: libgbm-dev, libegl1-mesa-dev, libgles2-mesa-dev
-#Conflicts: libgbm-dev, libegl1-mesa-dev, libgles2-mesa-dev
-Replaces: libgbm-dev, libegl1-mesa-dev, libgles2-mesa-dev
-Description: The mali library for Zynqmp(Mali-400).
- .
- This package provides the development environment for compiling programs
- against the GBM library.
+Provides: libegl1-mesa-dev, libgles2-mesa-dev, ocl-icd-opencl-dev
+Replaces: libegl1-mesa-dev, libgles2-mesa-dev, ocl-icd-opencl-dev
+Description: User Space Libraries(development files) for GPU(ARM Mali-400).
 
 Package: libmali-zynqmp
 Architecture: arm64
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
-Provides: libegl1-mesa, libegl1    , libgles2-mesa, libgbm1
-Replaces: libegl1-mesa, libegl1-x11, libgles2-mesa, libgbm1
-Description: The mali library for Zynqmp(Mali-400).
+Provides: libegl1-mesa, libegl1    , libgles2-mesa, ocl-icd-libopencl1
+Replaces: libegl1-mesa, libegl1-x11, libgles2-mesa, ocl-icd-libopencl1
+Description: User Space Libraries(runtime) for GPU(ARM Mali-400).
+
+Package: libgbm-zynqmp-dev
+Section: libdevel
+Architecture: arm64
+Depends: ${misc:Depends} libgbm1-zynqmp
+Multi-Arch: same
+Provides: libgbm-dev
+Replaces: libgbm-dev
+Description: Generic Buffer Management API(development files) for GPU(ARM Mali-400).
+
+Package: libgbm1-zynqmp
+Architecture: arm64
+Depends: ${misc:Depends}, ${shlibs:Depends} libmali-zynqmp
+Multi-Arch: same
+Provides: libgbm1
+Replaces: libgbm1
+Description: Generic Buffer Management API(runtime) for ZynqMP GPU(ARM Mali-400).
+

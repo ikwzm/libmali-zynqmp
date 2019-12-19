@@ -1,3 +1,9 @@
+libmali-zynqmp (1.6-2) unstable; urgency=low
+
+  * libgbm1-zynqmp was separated from libmali-zynqmp
+
+ -- ikwzm <ichiro_k@ca2.so-net.ne.jp>  Mon, 19 Dec 2019 00:40:00 +0900
+
 libmali-zynqmp (1.6-1) unstable; urgency=low
 
   * mali: utgard: update to r8p0

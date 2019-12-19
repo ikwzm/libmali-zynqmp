@@ -1,4 +1,4 @@
 #! /usr/bin/dh-exec
-usr/lib/${DEB_HOST_MULTIARCH}/libMali.so usr/lib/${DEB_HOST_MULTIARCH}/libEGL.so
-usr/lib/${DEB_HOST_MULTIARCH}/libMali.so usr/lib/${DEB_HOST_MULTIARCH}/libGLESv2.so
-usr/lib/${DEB_HOST_MULTIARCH}/libMali.so usr/lib/${DEB_HOST_MULTIARCH}/libgbm.so
+usr/lib/${DEB_HOST_MULTIARCH}/libEGL.so.1    usr/lib/${DEB_HOST_MULTIARCH}/libEGL.so
+usr/lib/${DEB_HOST_MULTIARCH}/libGLESv2.so.2 usr/lib/${DEB_HOST_MULTIARCH}/libGLESv2.so
+usr/lib/${DEB_HOST_MULTIARCH}/libOpenCL.so.1 usr/lib/${DEB_HOST_MULTIARCH}/libOpenCL.so
