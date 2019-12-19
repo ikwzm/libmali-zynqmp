@@ -18,7 +18,7 @@ Build Debian Package
 ### Download this repository
 
 ```console
-shell$ git clone --recursive --depth=1 -b v1.6-1 git://github.com/ikwzm/libmali-zynqmp.git
+shell$ git clone --recursive --depth=1 -b v1.6-2 git://github.com/ikwzm/libmali-zynqmp.git
 shell$ cd libmali-zynqmp
 ```
 
