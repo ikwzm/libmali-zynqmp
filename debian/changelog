@@ -1,3 +1,10 @@
+libmali-zynqmp (1.6-3) unstable; urgency=low
+
+  * libmali-zynqmp was added libgles2 and libgles1 to Provides and Replaces
+  * libgbm1-zynqmp was added libglvnd-dev to Provides and Replaces
+
+ -- ikwzm <ichiro_k@ca2.so-net.ne.jp>  Tue, 31 Dec 2019 12:30:00 +0900
+
 libmali-zynqmp (1.6-2) unstable; urgency=low
 
   * libgbm1-zynqmp was separated from libmali-zynqmp

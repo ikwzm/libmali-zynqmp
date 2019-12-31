@@ -10,16 +10,16 @@ Package: libmali-zynqmp-dev
 Architecture: arm64
 Depends: ${misc:Depends}, libmali-zynqmp
 Multi-Arch: same
-Provides: libegl1-mesa-dev, libgles2-mesa-dev, ocl-icd-opencl-dev
-Replaces: libegl1-mesa-dev, libgles2-mesa-dev, ocl-icd-opencl-dev
+Provides: libglvnd-dev, libegl1-mesa-dev, libgles2-mesa-dev, ocl-icd-opencl-dev
+Replaces: libglvnd-dev, libegl1-mesa-dev, libgles2-mesa-dev, ocl-icd-opencl-dev
 Description: User Space Libraries(development files) for GPU(ARM Mali-400).
 
 Package: libmali-zynqmp
 Architecture: arm64
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: same
-Provides: libegl1-mesa, libegl1    , libgles2-mesa, ocl-icd-libopencl1
-Replaces: libegl1-mesa, libegl1-x11, libgles2-mesa, ocl-icd-libopencl1
+Provides: libegl1-mesa, libegl1    , libgles2-mesa, libgles2, libgles1, ocl-icd-libopencl1
+Replaces: libegl1-mesa, libegl1-x11, libgles2-mesa, libgles2, libgles1, ocl-icd-libopencl1
 Description: User Space Libraries(runtime) for GPU(ARM Mali-400).
 
 Package: libgbm-zynqmp-dev
