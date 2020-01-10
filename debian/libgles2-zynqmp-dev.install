@@ -1,0 +1,3 @@
+#! /usr/bin/dh-exec
+usr/include/GLES2
+usr/lib/${DEB_HOST_MULTIARCH}/pkgconfig/glesv2.pc
