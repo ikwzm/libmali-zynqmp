@@ -1,3 +1,14 @@
+libmali-zynqmp (1.7-0) unstable; urgency=low
+
+  * libegl1-zynqmp      was separated from libmali-zynqmp
+  * libgles1-zynqmp     was separated from libmali-zynqmp
+  * libgles2-zynqmp     was separated from libmali-zynqmp
+  * libegl1-zynqmp-dev  was separated from libmali-zynqmp-dev
+  * libgles1-zynqmp-dev was separated from libmali-zynqmp-dev
+  * libgles2-zynqmp-dev was separated from libmali-zynqmp-dev
+
+ -- ikwzm <ichiro_k@ca2.so-net.ne.jp>  Fri, 10 Jan 2020 16:20:00 +0900
+
 libmali-zynqmp (1.6-2) unstable; urgency=low
 
   * libgbm1-zynqmp was separated from libmali-zynqmp
